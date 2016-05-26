@@ -1,0 +1,75 @@
+﻿html, body {
+    padding: 0;
+    background-color: #2ea6cc;
+}
+
+.head h1 {
+    background-color: transparent;
+    background: url('/images/rangali background.jpg') no-repeat center center;
+    background-size: cover;
+    font-family: Calibri;
+    color: white;
+    text-align: center;
+    font-size: 7em;
+    font-weight: 700;
+    height: 130px;
+    border: 0 !important;
+    margin: 0 !important;
+}
+
+.head {
+    border: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    background-color: transparent;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    color: white;
+}
+    .hiddenmenu{
+        font-size: 2em;
+        display:inline-block;
+        text-align: center;
+        line-height: 1.8;
+        margin: 0;
+    }
+    #menubutton{
+
+    }
+nav li{
+    text-align:center;
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float: none;
+    }
+
+    html {
+        background: url('/images/rangali background.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .head h1 {
+        background-color: #2ea6cc;
+        background: none;
+        font-family: Calibri;
+        color: white;
+        text-align: center;
+        font-size: 7em;
+        font-weight: 700;
+        border: 0 !important;
+        margin: 0 !important;
+    }
+    .hiddenmenu{
+        display:none;
+    }
+}
