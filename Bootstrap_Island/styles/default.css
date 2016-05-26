@@ -10,11 +10,12 @@
     font-family: Calibri;
     color: white;
     text-align: center;
-    font-size: 7em;
+    font-size: 5em;
     font-weight: 700;
-    height: 130px;
+    height: 100px;
     border: 0 !important;
     margin: 0 !important;
+    text-shadow: 10px 10px 10px #333;
 }
 
 .head {
@@ -61,13 +62,8 @@ nav li{
     .head h1 {
         background-color: #2ea6cc;
         background: none;
-        font-family: Calibri;
-        color: white;
-        text-align: center;
         font-size: 7em;
-        font-weight: 700;
-        border: 0 !important;
-        margin: 0 !important;
+        height:130px;
     }
     .hiddenmenu{
         display:none;
