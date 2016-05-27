@@ -95,9 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="scripts\defaultJS.js" />
     <Content Include="scripts\jquery-1.9.1.min.map" />
     <Content Include="fonts\BOMBORA.otf" />
     <None Include="Web.Debug.config">

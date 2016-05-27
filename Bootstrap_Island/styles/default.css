@@ -1,13 +1,12 @@
 ﻿@font-face {
     font-family: 'bombora';
     src: url(../fonts/BOMBORA.otf);
-
 }
 
 
 html, body {
     padding: 0;
-    background-color: #2ea6cc;
+    background-color: #5e9cb0;
 }
 
 .head h1 {
@@ -34,6 +33,7 @@ html, body {
 
 body {
     background-color: transparent;
+    padding-bottom: 40px;
 }
 
 footer {
@@ -42,26 +42,80 @@ footer {
     color: white;
 }
 
-nav li{
-    text-align:center;
+nav li {
+    text-align: center;
 }
-.navhead{
+
+.navhead {
     text-align: center;
     height: 5%;
 }
-.menu{
-    width:100%;
-    height:100%;
+
+.menu {
+    width: 100%;
+    height: 100%;
     font-family: bombora;
     line-height: 1,7;
-    font-size: 1.7em;
+    font-size: 2em;
     color: #333;
-    text-decoration:none;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 5px 5px black;
 }
-a:hover .btn-link { text-decoration: none }
-a .btn-link:hover { text-decoration: none }
-a:hover .btn-link .btn { text-decoration: none }
-a .link-group .btn:hover { text-decoration: none }
+
+a:hover .btn-link {
+    text-decoration: none;
+}
+
+a .btn-link:hover {
+    text-decoration: none;
+}
+
+a:hover .btn-link .btn {
+    text-decoration: none;
+}
+
+a .link-group .btn:hover {
+    text-decoration: none;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+    .affix + .container-fluid {
+        padding-top: 70px;
+    }
+
+.row {
+}
+
+article, aside {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    border-radius: 15px;
+    color: #000000;
+    padding: 3%;
+    margin: 2%;
+    margin-top: 0;
+    text-shadow:2px 2px 2px 2px #333;
+    font-stretch:expanded;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+    article h2, aside h3 {
+        text-align: center;
+    }
+
+.spanhide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+}
 
 @media (min-width: 768px) {
     .navbar-nav {
@@ -81,7 +135,16 @@ a .link-group .btn:hover { text-decoration: none }
         background: none;
         font-size: 7em;
     }
-    .menu{
-        display:none;
+
+    .menu {
+        display: none;
+    }
+
+    .spanhide {
+        display: inline;
+    }
+
+    article, aside {
+        background-color: rgba(255, 255, 255, 0.46);
     }
 }
