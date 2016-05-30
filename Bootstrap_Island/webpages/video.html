@@ -1,10 +1,87 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
-    <title></title>
-	<meta charset="utf-8" />
+    <title>Rangali Bootstrap Island</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Robin Ljungqvist" />
+    <meta name="description" content="A laboration making a webpage for an island in the Maldives using bootstrap." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <!--Imports-->
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="../scripts/jquery-1.9.1.min.js"></script>
+    <script src="../scripts/bootstrap.min.js"></script>
+    <link href="../styles/default.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/videostyle.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+    <div class="page-header head ">
+        <a href="#"><h1> Rangali </h1></a>
+        <div class="logocontainer">
+            <img src="../images/RangaliLogo.svg" alt="A logo with a white sun representing Rangali" />
+        </div>
+    </div>
+    <nav class="navbar navbar-default navbar-static-top " id="navigationbar">
+        <div class="container-fluid navhead">
+            <a class="menu btn btn-block" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">MENU</a>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="../index.html">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Game</a></li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="photos.html">Photos</a></li>
+                            <li class="divider"></li>
+                            <li class="active"><a href="#">Videos</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Camera</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Customer Review</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="staff.html">Staff</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </li>
 
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div> <!--end of container fluid-->
+    </nav><!--end of navbar-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8">
+                <div class="tvwrapper">
+                    <img class="tvoverlay" src="../images/media/tvstencil.png" alt="A television." />
+                    <div class="tvcontainer">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7WsXDGsVNtA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <article id="videodisclaimer">
+                    <h2>Important</h2>
+                    <p>
+                        I do not own these videos they are just for practice purpose and all the credits go to the rightful owners.
+                    </p>
+                </article>
+            </div>
+            <div class="col-xs-12 col-sm-8">
+                <div class="tvwrapper">
+                    <img class="tvoverlay" src="../images/media/tvstencil.png" alt="A television." />
+                    <div class="tvcontainer">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/d7iRZdXHRYA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <footer class="container-fluid navbar-fixed-bottom">
+        <p><span class="spanhide">Made as a laboration within</span> EC Education <span class="spanhide">Helsingborg, Sweden</span> | Robin Ljungqvist 2016</p>
+    </footer>
 </body>
 </html>
+

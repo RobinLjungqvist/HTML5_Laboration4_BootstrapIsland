@@ -117,6 +117,7 @@
     <Content Include="scripts\jquery-1.9.1.min.map" />
     <Content Include="fonts\BOMBORA.otf" />
     <Content Include="styles\dreamphotos.css" />
+    <Content Include="styles\videostyle.css" />
     <Content Include="webpages\contact.html" />
     <Content Include="webpages\photos.html" />
     <Content Include="webpages\staff.html" />
