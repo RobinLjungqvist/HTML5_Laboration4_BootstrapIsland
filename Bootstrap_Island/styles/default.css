@@ -25,6 +25,35 @@ html, body {
     border: solid black 0.5px;
 }
 
+.logocontainer {
+    position: relative;
+    left: 60%;
+    top: -100px;
+}
+
+    .logocontainer img {
+        width: 15%;
+        position: absolute;
+        z-index: -2;
+    }
+
+.head:hover img {
+    -moz-animation: logo 5s linear infinite;
+    -o-animation: logo 5s linear infinite;
+    -webkit-animation: logo 5s linear infinite;
+    animation: logo 5s linear infinite;
+}
+
+@keyframes logo {
+    50% {
+        transform: rotateZ(180deg) scale(1.3);
+    }
+
+    100% {
+        transform: rotateZ(360deg) scale(1);
+    }
+}
+
 .head {
     border: 0 !important;
     margin: 0 !important;
@@ -88,7 +117,7 @@ a .link-group .btn:hover {
         padding-top: 70px;
     }
 
-.row {
+.innerheader {
 }
 
 article, aside {
@@ -99,8 +128,8 @@ article, aside {
     padding: 3%;
     margin: 2%;
     margin-top: 0;
-    text-shadow:2px 2px 2px 2px #333;
-    font-stretch:expanded;
+    text-shadow: 2px 2px 2px 2px #333;
+    font-stretch: expanded;
     letter-spacing: 1px;
     font-size: 1.2em;
     text-shadow: 1px 1px 1px white;
@@ -117,7 +146,8 @@ article, aside {
 .container {
     margin: 0 auto;
 }
-    .container img{
+
+    .container img {
         width: 100%;
         border-radius: 5px;
         margin-top: 15px;
