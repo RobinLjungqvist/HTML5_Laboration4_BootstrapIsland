@@ -11,6 +11,7 @@
     <script src="../scripts/jquery-1.9.1.min.js"></script>
     <script src="../scripts/bootstrap.min.js"></script>
     <link href="../styles/default.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/dreamphotos.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div class="page-header head ">
@@ -26,7 +27,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="../index.html">Home <span class="sr-only">(current)</span></a></li>
                     <li><a href="#">Game</a></li>
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Photos</a></li>
@@ -37,7 +38,7 @@
                         </ul>
                     </li>
                     <li><a href="#">Customer Review</a></li>
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="staff.html">Staff</a></li>
@@ -49,17 +50,72 @@
             </div><!-- /.navbar-collapse -->
         </div> <!--end of container fluid-->
     </nav><!--end of navbar-->
-    <div class="container">
+    <div class="container" id="photos">
         <div class="row">
-            <article>
-                <div class="col-xs-12 col-lg-6">
+            <div class="col-sm-6">
+                <div class="flipcontainer" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipcard">
+                        <div class="front">
+                            <img src="../images/rangali1.PNG" alt="Rangali" />
+                        </div>
+                        <div class="back">
+                            <h2>Rangali Islands</h2>
+                            <p>
+                                "Rangali consists of three small isles connected by a line ferry.
+                                Our guides will gladly show you arround."
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-lg-6">
+            </div>
+            <div class="col-sm-6">
+                <div class="flipcontainer" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipcard">
+                        <div class="front">
+                            <img src="../images/rangali2.PNG" />
+                        </div>
+                        <div class="back">
+                            <h2>Main island</h2>
+                            <p>
+                                "Choose if you wish to live on or beneath the ocean or on the mainland surrounded by beautiful nature."
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </article>
-</div>
+            </div>
+            <div class="col-sm-6">
+                <div class="flipcontainer" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipcard">
+                        <div class="front">
+                            <img src="../images/rangali3restaurant.PNG" alt="Underwater dinig hall with glass walls and roof."/>
+                        </div>
+                        <div class="back">
+                            <h2>Restaurant</h2>
+                            <p>
+                                "Wine and dine in one of our many restaurants, even under water!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="flipcontainer" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipcard">
+                        <div class="front">
+                            <img src="../images/rangali4.PNG" />
+                        </div>
+                        <div class="back">
+                            <h2>Main island</h2>
+                            <p>
+                                "Choose if you wish to live on or beneath the ocean or on the mainland surrounded by beautiful nature."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <footer class="container-fluid navbar-fixed-bottom">
+    <footer class="container-fluid navbar-fixed-bottom ">
         <p><span class="spanhide">Made as a laboration within</span> EC Education <span class="spanhide">Helsingborg, Sweden</span> | Robin Ljungqvist 2016</p>
     </footer>
 </body>
