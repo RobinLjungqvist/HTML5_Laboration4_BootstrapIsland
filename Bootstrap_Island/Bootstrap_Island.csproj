@@ -108,10 +108,17 @@
     <Content Include="images\rangalirestaurant.PNG" />
     <Content Include="images\RangaliRoom.PNG" />
     <Content Include="images\rangaliunderwaterroom.PNG" />
+    <Content Include="images\staffimages\Robert.PNG" />
+    <Content Include="images\staffimages\Sandra.PNG" />
+    <Content Include="images\staffimages\Tito.PNG" />
     <Content Include="packages.config" />
     <Content Include="scripts\defaultJS.js" />
     <Content Include="scripts\jquery-1.9.1.min.map" />
     <Content Include="fonts\BOMBORA.otf" />
+    <Content Include="styles\dreamphotos.css" />
+    <Content Include="webpages\contact.html" />
+    <Content Include="webpages\photos.html" />
+    <Content Include="webpages\staff.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

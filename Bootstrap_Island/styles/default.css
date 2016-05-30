@@ -120,7 +120,6 @@ a .link-group .btn:hover {
         padding-top: 70px;
     }
 
-
 article, aside {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(255, 255, 255, 0.58);
@@ -166,6 +165,26 @@ article, aside {
         margin-bottom: 15px;
     }
 
+    legend{
+        text-align: left;
+        font-size: 200%;
+    }
+    .contactimage{
+        border-radius: 50% !important;
+        max-width: 300px !important;
+        display: inline-block !important;
+    }
+    fieldset{
+        text-align:center;
+    }
+    fieldset ul{
+        text-align: left;
+        list-style: none;
+    }
+
+
+
+
 @media (min-width: 768px) {
     .navbar-nav {
         margin: 0 auto;
@@ -191,5 +210,11 @@ article, aside {
         max-width: 200px;
         margin-top: -110px;
         left: 52.2%;
+    }
+    legend{
+        font-size: 250%;
+    }
+    fieldset ul {
+        font-size: 1.5em;
     }
 }
