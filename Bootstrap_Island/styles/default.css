@@ -103,6 +103,7 @@ article, aside {
     font-stretch:expanded;
     letter-spacing: 1px;
     font-size: 1.2em;
+    text-shadow: 1px 1px 1px white;
 }
 
     article h2, aside h3 {
@@ -116,6 +117,12 @@ article, aside {
 .container {
     margin: 0 auto;
 }
+    .container img{
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 
 @media (min-width: 768px) {
     .navbar-nav {
