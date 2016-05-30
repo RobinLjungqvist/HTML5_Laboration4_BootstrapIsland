@@ -95,7 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\bynight.PNG" />
-    <Content Include="images\Rangali Logo.svg" />
+    <Content Include="images\RangaliLogo.svg" />
     <Content Include="images\rangali1.PNG" />
     <Content Include="images\rangali2.PNG" />
     <Content Include="images\rangali3restaurant.PNG" />
