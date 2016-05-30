@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\bynight.PNG" />
+    <Content Include="images\media\tvstencil.png" />
     <Content Include="images\RangaliLogo.svg" />
     <Content Include="images\rangali1.PNG" />
     <Content Include="images\rangali2.PNG" />
@@ -119,6 +120,7 @@
     <Content Include="webpages\contact.html" />
     <Content Include="webpages\photos.html" />
     <Content Include="webpages\staff.html" />
+    <Content Include="webpages\video.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
