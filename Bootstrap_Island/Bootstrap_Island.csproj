@@ -94,6 +94,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\bynight.PNG" />
+    <Content Include="images\rangali1.PNG" />
+    <Content Include="images\rangali2.PNG" />
+    <Content Include="images\rangali3restaurant.PNG" />
+    <Content Include="images\Rangali4.PNG" />
+    <Content Include="images\rangali5.PNG" />
+    <Content Include="images\rangali6.PNG" />
+    <Content Include="images\RangaliBoat.PNG" />
+    <Content Include="images\rangaliinfinitypool.PNG" />
+    <Content Include="images\rangalinightfestive.PNG" />
+    <Content Include="images\rangalirestaurant.PNG" />
+    <Content Include="images\RangaliRoom.PNG" />
+    <Content Include="images\rangaliunderwaterroom.PNG" />
     <Content Include="packages.config" />
     <Content Include="scripts\defaultJS.js" />
     <Content Include="scripts\jquery-1.9.1.min.map" />
