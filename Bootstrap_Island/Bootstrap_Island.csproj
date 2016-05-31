@@ -118,9 +118,11 @@
     <Content Include="scripts\jquery-1.9.1.min.map" />
     <Content Include="fonts\BOMBORA.otf" />
     <Content Include="styles\dreamphotos.css" />
+    <Content Include="styles\reviews.css" />
     <Content Include="styles\videostyle.css" />
     <Content Include="webpages\contact.html" />
     <Content Include="webpages\photos.html" />
+    <Content Include="webpages\reviews.html" />
     <Content Include="webpages\staff.html" />
     <Content Include="webpages\video.html" />
     <None Include="Web.Debug.config">
@@ -158,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\ratingsymbols\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
