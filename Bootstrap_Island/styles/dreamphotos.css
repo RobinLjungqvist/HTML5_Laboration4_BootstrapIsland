@@ -3,8 +3,11 @@
 }
 
     .flipcontainer:hover .flipcard {
-        transform: rotateY(180deg);
+        transform: rotateY(180deg) rotateX(360deg);
     }
+.even:hover .flipcard{
+    transform: rotateY(-180deg) rotateX(-360deg);
+}
 
 .flipcontainer, .front, .back {
     width: 100%;
