@@ -1,16 +1,26 @@
-﻿.ratingimage{
-    margin:0;
+﻿.ratinform_container{
     width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.ratinform_container input{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.ratingimage{
     height: 100%;
     opacity: 0;
     display: block;
     position: absolute;
 }
 .ratingpiccontainer{
-    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
     width: 200px;
     height: 200px;
     display:block;
+    text-align: center;
 }
 input#bad:checked ~ .ratingpiccontainer #badpic {
     opacity: 1;
