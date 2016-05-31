@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="audio\252481_oceanic_stuff.mp3" />
     <Content Include="images\bynight.PNG" />
     <Content Include="images\media\tvstencil.png" />
     <Content Include="images\RangaliLogo.svg" />
