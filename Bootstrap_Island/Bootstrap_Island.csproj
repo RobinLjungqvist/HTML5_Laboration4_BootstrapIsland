@@ -110,6 +110,9 @@
     <Content Include="images\rangalirestaurant.PNG" />
     <Content Include="images\RangaliRoom.PNG" />
     <Content Include="images\rangaliunderwaterroom.PNG" />
+    <Content Include="images\ratingsymbols\happy.svg" />
+    <Content Include="images\ratingsymbols\okay.svg" />
+    <Content Include="images\ratingsymbols\sad.svg" />
     <Content Include="images\staffimages\Robert.PNG" />
     <Content Include="images\staffimages\Sandra.PNG" />
     <Content Include="images\staffimages\Tito.PNG" />
@@ -161,9 +164,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\ratingsymbols\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
