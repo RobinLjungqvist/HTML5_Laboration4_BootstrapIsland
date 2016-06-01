@@ -117,13 +117,13 @@
     <Content Include="images\staffimages\Sandra.PNG" />
     <Content Include="images\staffimages\Tito.PNG" />
     <Content Include="packages.config" />
-    <Content Include="scripts\defaultJS.js" />
     <Content Include="scripts\jquery-1.9.1.min.map" />
     <Content Include="fonts\BOMBORA.otf" />
     <Content Include="styles\dreamphotos.css" />
     <Content Include="styles\reviews.css" />
     <Content Include="styles\videostyle.css" />
     <Content Include="webpages\contact.html" />
+    <Content Include="webpages\game.html" />
     <Content Include="webpages\photos.html" />
     <Content Include="webpages\reviews.html" />
     <Content Include="webpages\staff.html" />
@@ -164,7 +164,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="myScripts\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

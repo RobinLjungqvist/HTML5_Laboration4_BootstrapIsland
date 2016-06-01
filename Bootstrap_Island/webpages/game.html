@@ -11,7 +11,6 @@
     <script src="../scripts/jquery-1.9.1.min.js"></script>
     <script src="../scripts/bootstrap.min.js"></script>
     <link href="../styles/default.css" rel="stylesheet" type="text/css" />
-    <link href="../styles/videostyle.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div class="page-header head ">
@@ -20,29 +19,29 @@
             <img src="../images/RangaliLogo.svg" alt="A logo with a white sun representing Rangali" />
         </div>
     </div>
-    <nav class="navbar navbar-default navbar-static-top " id="navigationbar">
+    <nav class="navbar navbar-default navbar-static-top " data-spy="affix" data-offset-top="197" id="navigationbar">
         <div class="container-fluid navhead">
             <a class="menu btn btn-block" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">MENU</a>
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="../index.html">Home <span class="sr-only">(current)</span></a></li>
-                    <li><a href="game.html">Game</a></li>
-                    <li class="dropdown active">
+                    <li class="active"><a href="#">Game</a></li>
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="photos.html">Photos</a></li>
                             <li class="divider"></li>
-                            <li class="active"><a href="#">Videos</a></li>
+                            <li><a href="video.html">Videos</a></li>
                             <li class="divider"></li>
                             <li><a href="#">Camera</a></li>
                         </ul>
                     </li>
                     <li><a href="reviews.html">Customer Reviews</a></li>
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="staff.html">Staff</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
+                            <li class="active"><a href="contact.html">Contact Us</a></li>
                         </ul>
                     </li>
 
@@ -52,31 +51,15 @@
     </nav><!--end of navbar-->
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-8">
-                <div class="tvwrapper">
-                    <img class="tvoverlay" src="../images/media/tvstencil.png" alt="A television." />
-                    <div class="tvcontainer">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7WsXDGsVNtA" frameborder="0" allowfullscreen></iframe>
+            <div class="col-xs-12">
+                <article>
+                    <div class="aquariumcontainer">
+                        <canvas id="aquarium" width="800" height="500">
+
+                        </canvas>
                     </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4">
-                <article id="videodisclaimer">
-                    <h2>Important</h2>
-                    <p>
-                        I do not own these videos they are just for practice purpose and all the credits go to the rightful owners.
-                    </p>
                 </article>
             </div>
-            <div class="col-xs-12 col-sm-8">
-                <div class="tvwrapper">
-                    <img class="tvoverlay" src="../images/media/tvstencil.png" alt="A television." />
-                    <div class="tvcontainer">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/d7iRZdXHRYA" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-            
         </div>
     </div>
     <footer class="container-fluid navbar-fixed-bottom">
@@ -84,4 +67,3 @@
     </footer>
 </body>
 </html>
-
