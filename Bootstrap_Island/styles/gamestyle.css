@@ -1,8 +1,10 @@
 ﻿.gamecontainer{
     width: 100%;
+    min-width: 1000px;
     height: 550px;
     padding: 25px 50px 50px 25px;
     background-color: rgba(255, 255, 255, 0.62);
+    text-align: center;
 }
 canvas{
     padding-left: 0;
@@ -24,9 +26,120 @@ canvas{
     border-radius: 25px;
     color:#77d3f6;
 }
+#sharkbox:checked ~ .aquariumcontainer #sharkPic{
+    animation-name: sharkswim;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+#moraybox:checked ~.aquariumcontainer #morayPic{
+
+    animation-direction:reverse;
+}
+
+#stonefishbox:checked ~.aquariumcontainer #stoneFishPic{
+
+    left: 200px;
+}
+
+
+
+
+.gameItem{
+    z-index: 2;
+    position: absolute;
+    margin:0;
+    padding: 0;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+#diverPic{
+    top: 130px;
+    width: 100px;
+    animation-name: diverswim;
+    animation-duration: 15s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+#largeCoralPic{
+    width: 250px;
+    left: 600px;
+    top: 250px;
+    z-index: 0;
+
+}
+#coralPic{
+        width: 200px;
+    left: 700px;
+    top: 310px;
+        z-index: 5;
+
+}
+#sharkPic{
+    width: 200px;
+    top: 390px;
+    left: 615px;
+    transform: rotateY(180deg) rotateZ(-15deg);
+
+}
+#stoneFishPic{
+    width: 100px;
+    top: 150px;
+    left: 800px;
+    animation-name: stonefish-right;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+#morayPic{
+    width: 100px;
+    left: 200px;
+    top: 150px;
+    z-index: 1;
+    transform: rotateY(180deg);
+    animation-name: moray-clockwise;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moray-clockwise{
+    0% { top: 150px;}
+    25% {left: 800px;}
+    50% {top: 350px; transform: rotateY(360deg);}
+    75% { left: 200px}
+    100% { top: 150px;}
+
+}
+@keyframes stonefish-right{
+    0% { transform: scale(0);}
+    50%{ transform: scale(1);}
+    100% { transform: scale(0);}
+
+
+}
+@keyframes diverswim{
+    0% { left:200px}
+    50%{ left: 800px; transform: rotateY(0deg);}
+    60% {transform: rotateY(180deg);}
+    90%{transform: rotateY(180deg);}
+    100%{ left: 200px;}
+}
+@keyframes sharkswim{
+    0% {}
+    10% {transform:rotateY(360deg) rotateZ(35deg); }
+    50%{ left: 200px; top: 300px; transform: rotateY(360deg)  rotateZ(25deg);}
+    60% {transform: rotateY(540deg);}
+    90%{transform: rotateY(540deg);}
+    100%{ left: 600px;}
+
+}
+
+
+
 
 @media only screen and (max-width: 990px){
-    canvas{
+    .aquariumcontainer{
         display: none;
     }
     .gamecontainer:before{

@@ -96,6 +96,12 @@
   <ItemGroup>
     <Content Include="audio\252481_oceanic_stuff.mp3" />
     <Content Include="images\bynight.PNG" />
+    <Content Include="images\gameimages\coral_plant_01.png" />
+    <Content Include="images\gameimages\diver.png" />
+    <Content Include="images\gameimages\eel-png.png" />
+    <Content Include="images\gameimages\large_coral.png" />
+    <Content Include="images\gameimages\shark6-png.png" />
+    <Content Include="images\gameimages\swordinstonefish.gif" />
     <Content Include="images\media\tvstencil.png" />
     <Content Include="images\RangaliLogo.svg" />
     <Content Include="images\rangali1.PNG" />
@@ -166,9 +172,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\gameimages\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
