@@ -116,10 +116,12 @@
     <Content Include="images\staffimages\Robert.PNG" />
     <Content Include="images\staffimages\Sandra.PNG" />
     <Content Include="images\staffimages\Tito.PNG" />
+    <Content Include="myScripts\AquariumScript.js" />
     <Content Include="packages.config" />
     <Content Include="scripts\jquery-1.9.1.min.map" />
     <Content Include="fonts\BOMBORA.otf" />
     <Content Include="styles\dreamphotos.css" />
+    <Content Include="styles\gamestyle.css" />
     <Content Include="styles\reviews.css" />
     <Content Include="styles\videostyle.css" />
     <Content Include="webpages\contact.html" />
@@ -165,7 +167,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="myScripts\" />
+    <Folder Include="images\gameimages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
