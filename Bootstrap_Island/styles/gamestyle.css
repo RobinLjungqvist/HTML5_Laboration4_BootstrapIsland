@@ -1,10 +1,17 @@
-﻿.gamecontainer{
+﻿    article{
+        text-align: center;
+        width: 100%;
+        margin: 10px auto;
+    }
+
+.gamecontainer{
     width: 100%;
     min-width: 1000px;
-    height: 550px;
+    /*height: 550px;*/
     padding: 25px 50px 50px 25px;
     background-color: rgba(255, 255, 255, 0.62);
     text-align: center;
+    border-radius: 25px;
 }
 canvas{
     padding-left: 0;
@@ -142,8 +149,14 @@ canvas{
     .aquariumcontainer{
         display: none;
     }
-    .gamecontainer:before{
-        font-size: 3em;
-        content: 'The game is only supported in large browsers.';
+
+    input{
+        display: none;
+    }
+    .gamecontainer{
+        display:none;
+    }
+    #noSupport:before{
+        content: "Only supported on largescreen devices.";
     }
 }
