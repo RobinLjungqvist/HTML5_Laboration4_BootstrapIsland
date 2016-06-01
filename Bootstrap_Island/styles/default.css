@@ -7,7 +7,7 @@
 html, body {
     padding: 0;
     background-color: #5e9cb0;
-    background: url('/images/rangali background.jpg') no-repeat center center fixed;
+    background: url('../images/rangalibackground.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
     z-index: -99;
