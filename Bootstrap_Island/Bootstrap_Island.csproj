@@ -130,6 +130,7 @@
     <Content Include="styles\gamestyle.css" />
     <Content Include="styles\reviews.css" />
     <Content Include="styles\videostyle.css" />
+    <Content Include="webpages\camera.html" />
     <Content Include="webpages\contact.html" />
     <Content Include="webpages\game.html" />
     <Content Include="webpages\photos.html" />
